@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Savannah - Lands</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
+      <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    
+  
+
+<script>
+   $(document).ready(function () {
+        // Add smooth scrolling to all links with the class "scroll-down-link" and home logo
+        $(".scroll-down-link, .home-logo a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                var offset = 0; // Adjust this offset as needed
+
+                // Check if the device is mobile
+                if ($(window).width() <= 768) {
+                    offset = 60; // Adjust this offset for mobile devices
+                }
+
+                // Scroll to the target
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top - offset
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+
+        // Scroll smoothly between sections
+        $('a[href^="#content1"]').on('click', function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            // Check if the target exists
+            if ($target.length) {
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function () {
+                    window.location.hash = target;
+                });
+            }
+        });
+    });
+</script>
+
+
+
+
+    
+</head>
+
+
+
+<body>
+
+    <!-- home
+    ================================================== -->
+    <main class="s-home s-home--slides">
+
+        <div class="home-slider">
+            
+            <div class="home-slider-img" style="background-image: url(images/slides/giraffes-at-oasis.jpeg);"></div>
+            
+            <div class="home-slider-img" style="background-image: url(images/slides/leopard-cats-animal-print.jpg);"></div>
+            
+        </div>
+
+        <div class="overlay"></div>
+
+        <div class="home-content">
+
+            <div class="home-logo">
+                <a href="index-slides.html">
+                    <img src="images/logo.svg" alt="Homepage">
+                </a>
+            </div>
+
+            <div class="row home-content__main">
+
+                <div class="col-eight home-content__text pull-right">
+                    <h3>Welcome to</h3>
+
+                    <h1>
+                        <i><b>Web3Savannah- <h3>Bridging Borders, Connecting Minds.</h3></b></i> <br>
+                        <p class="info-block">
+                            As we traverse the Web3 Savannah on our collective expedition, we engage in a journey of learning, vibrant discussions, and the construction of a decentralized present and future. From the heart of East Africa, we are shaping a digital landscape that reflects innovation, collaboration, and the spirit of progress.
+                        </p>
+                        <br>
+                    </h1>
+ <!-- Scroll Down Link -->
+ <a href="#content1" class="scroll-down-link">Explore Patners</a>
+                    <div class="home-content__subscribe">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="submit" name="subscribe" value="Join Tech Hub">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                        
+                        </div>
+                       
+                        <section id="content1">
+                            <div id="content1-inner">
+                                <div class="row">
+                                    
+                                    <h1 ><a href="index-slides.html">Our Partners</a></h1>
+                        
+                                    <div class="card-container">
+                                        <!-- Card 1 -->
+                                        <div class="card">
+                                            <img src="images/tezologo.png" alt="Card Image 1">
+                                            <h3>Tezos</h3>
+                                            <p>Tezos, an open-source platform, tackles blockchain adoption barriers for assets and applications, supported by a global community of validators and builders."</p>
+                                        </div>
+                        
+                                        <!-- Card 2 -->
+                                        <div class="card">
+                                            <img src="images/dot.jpeg" alt="pok.webp">
+                                            <h3>Polkadot Safari</h3>
+                                            <p>Polkadot Safari offers hands-on workshops for exploring the latest trends, patterns, and frameworks to build the Polkadot ecosystem."</p>
+                                        </div>
+
+                                        <!-- Card 3 -->
+                                        <div class="card">
+                                            <img src="images/her.png" alt="her.png">
+                                            <h3>H.E.R DAO</h3>
+                                            <p> a womxn-focused developer DAO championing innovation & diversity. The new launchpad for womxn led ventures. ✨herdao.substack.com✨</p>
+                                        </div>
+
+                                        <!-- Card 4 -->
+                                        <div class="card">
+                                            <img src="images/cheelee.png" alt="cheelee.png">
+                                            <h3>Cheelee</h3>
+                                            <p>GameFi short video platform where you can earn by viewing and creating video content, regardless of the number of subscribers</p>
+                        
+                                        <!-- Add more cards as needed -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <section id="content2">
+                                    <a href="#content1" class="scroll-down-link">Do you have Africa strategy?</a>
+                                    <div class="home-content__subscribe">
+                                        <form id="mc-form" class="group" novalidate="true">
+                                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                                            <input type="submit" name="subscribe" value="Let's Partner">
+                                            <label for="mc-email" class="subscribe-message"></label>
+                                        </form>
+                                    </div>
+                                    <h3><a href="index-slides.html">Take me back</a></h3>
+                                </section>
+                                
+                            </div>
+                        </section>
+                    </div>
+
+                
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+</div>   
+           
+       
+    </main>
+
+    <!-- info
+    ================================================== -->
+    <a class="info-toggle" href="#0">
+        <span class="info-menu-icon"></span>
+    </a>
+
+    <div class="s-info" id="content">
+
+        <div class="row info-wrapper">
+
+            <div class="col-seven tab-full info-main">
+                <h1>Web3Savannah mission is to Navigate Tech Frontiers, From Africa's Savannah to the Global Digital Peaks</h1>
+                <p class="info-block">
+                    <h3> Craft,
+                        Develop and Link.
+                    </h3>
+                </p>
+            </div>
+
+            <div class="col-four tab-full pull-right info-contact">
+
+                <div class="info-block">
+                    <h3>Start A Conversation</h3>
+                    <p>
+                        <a href="mailto:#0" class="info-email">sianoikimari@gmail.com</a><br>
+                        <a href="tel:+25479851990" class="info-phone">+25479851990</a>
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Our Team</h3>
+
+                    <p class="info-address">
+                        Kimutai Kitur<br>
+                        Vincent Kwasi<br>
+                        Sianoi Kimari
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Find Us On</h3>
+
+                    <ul class="info-social">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i>
+                                <span>Discord</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span>Twiiter</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span>Telegram</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-full">
+                    <p>&copy; Web3Savannah 2023 | Made with <span class="love-emoji">&#10084;&#65039;</span> from Africa</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ... (your existing content) ... -->
+
+    <footer>
+        <div class="row">
+            <div class="col-full">
+                <p>&copy; Web3Savannah 2023 | Made with <span class="love-emoji">&#10084;&#65039;</span> from Africa</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+
+
+</body>
+</html>
