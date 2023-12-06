@@ -2431,3 +2431,40 @@ html.no-csstransitions .home-content__main {
 
 
 /*# sourceMappingURL=main.css.map */
+#statistics {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha (last value) for transparency */
+  backdrop-filter: blur(10px); /* Add a blur effect to the background */
+  padding: 50px; /* Adjust padding to prevent cutoff */
+  margin: 0;
+}
+
+.statistics-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistic {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha for transparency */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Add any additional styles as needed */
+
+@media (max-width: 768px) {
+  #statistics {
+      text-align: center;
+      width: 100%;
+  }
+
+  .statistics-container {
+      flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .statistic {
+      margin: 15px auto; /* Center the statistics horizontally */
+  }
+}
