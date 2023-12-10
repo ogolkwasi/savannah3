@@ -2471,7 +2471,7 @@ html.no-csstransitions .home-content__main {
 
 /* Add hover effect for statistics cards */
 .statistic:hover {
-  background-color: #f4beda71; /* Light teal color */
+  background-color: #151515; /* Light teal color */
 }
 
 /* Mobile Styles */
