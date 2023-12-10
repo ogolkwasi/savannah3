@@ -2435,13 +2435,20 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/*# sourceMappingURL=main.css.map */
 #statistics {
-  background-color: rgba(175, 154, 162, 0.04); /* Adjust the alpha (last value) for transparency */
+  background-color: rgba(92, 7, 51, 0); /* Adjust the alpha for transparency */
   backdrop-filter: blur(10px); /* Add a blur effect to the background */
-  padding: 50px; /* Adjust padding to prevent cutoff */
+  padding: 50px;
   margin: 0;
   margin-top: 70px;
+  background-image: url(images/slides/leopard-cats-animal-print.jpg);
+  /* Add transition for smoother effects */
+  transition: background-color 0.3s ease;
+}
+
+/* Update hover effect for #statistics */
+#statistics:hover {
+  background-color: rgba(92, 7, 51, 0.041); /* Adjust the alpha for a stronger hover effect */
 }
 
 .statistics-container {
@@ -2454,7 +2461,7 @@ html.no-csstransitions .home-content__main {
 
 .statistic {
   text-align: center;
-  background-color: rgba(176, 114, 151, 0.271);
+  background-color: rgba(222, 11, 99, 0.271);
   border-radius: 8px;
   padding: 20px;
   margin: 15px;
@@ -2462,27 +2469,10 @@ html.no-csstransitions .home-content__main {
   transition: background-color 0.3s ease; /* Add a subtle box shadow */
 }
 
-/* Add any additional styles as needed */
-
-@media (max-width: 768px) {
-  #statistics {
-      text-align: center;
-      width: 100%;
-  }
-
-  .statistics-container {
-      flex-direction: column; /* Stack items vertically on small screens */
-  }
-
-  .statistic {
-      margin: 15px auto; /* Center the statistics horizontally */
-  }
-}
-/* Add hover effect */
+/* Add hover effect for statistics cards */
 .statistic:hover {
   background-color: #f4beda71; /* Light teal color */
 }
-
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
