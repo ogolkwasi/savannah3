@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #7fffd4 ;
+  color: #ff7fd6 ;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -80,7 +80,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #0087cc;
+  color: #cc0077;
 }
 
 a:hover,
@@ -96,7 +96,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "domine-regular", serif;
-  color: #000000;
+  color: #a8a5a5;
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -367,7 +367,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #008080;
+  background: #800064;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #008080;
+  color: #800046;
 }
 
 dd {
@@ -501,7 +501,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #008080;
+  background: #800057;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #008080;
+  background-color: #80005e;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -776,7 +776,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #008080;
+  -webkit-text-fill-color: rgb(180, 4, 133);
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -835,8 +835,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #008080;
-  border-color: #008080;
+  background: #af0278;
+  border-color: #a40359;
   color: #FFFFFF;
 }
 
@@ -850,8 +850,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #008080;
-  border-color: #008080;
+  background: #a90353;
+  border-color: #960a78;
 }
 
 /* button modifiers
@@ -1062,7 +1062,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #008080;
+  color: #800069;
 }
 
 .stats-tabs li a em {
@@ -1277,7 +1277,7 @@ input::-moz-focus-inner {
 .home-content h3::before {
   content: "";
   display: block;
-  background-color: rgba(0, 236, 200, 0.6);
+  background-color: rgba(236, 0, 122, 0.6);
   width: 40px;
   height: 1px;
   position: absolute;
@@ -1303,7 +1303,7 @@ input::-moz-focus-inner {
 .home-content__text p {
   font-size: 1.8rem;
   line-height: 2;
-  color:#367588;
+  color:#ba0069;
   margin-top: 6.6rem;
   margin-right: 15%;
 }
@@ -1325,7 +1325,7 @@ input::-moz-focus-inner {
   font-size: 1.5rem;
   line-height: 3rem;
   padding: 1.2rem 170px 1.2rem 24px;
-  background: #367588;
+  background: rgba(252, 167, 229, 0.121);
   color: #FFFFFF;
   margin-bottom: 1.8rem;
 }
@@ -1352,8 +1352,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #008080;
-  border-color: #008080;
+  background: #80006b31;
+  border-color: rgb(128, 0, 68);
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1395,7 +1395,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__counter .time span {
-  color: #367588;
+  color: #883672;
   font-size: 2rem;
   position: absolute;
   bottom: 0;
@@ -1414,7 +1414,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #008080;
+  background-color: #80006d;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1424,7 +1424,7 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 12rem;
-  background-color: #008080;
+  background-color: #80004d;
   position: absolute;
   right: 84px;
   bottom: 0;
@@ -1483,7 +1483,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #008080;
+  color: #800049;
   right: 6rem;
   opacity: 0;
   visibility: hidden;
@@ -1500,7 +1500,7 @@ input::-moz-focus-inner {
   content: "";
   width: 8px;
   height: 1px;
-  background-color: #367588;
+  background-color: rgba(236, 0, 122, 0.6);
   position: absolute;
   top: 50%;
   right: -18px;
@@ -2057,7 +2057,7 @@ html.no-csstransitions .home-content__main {
   content: "";
   width: 80px;
   height: 1px;
-  background-color: rgba(0, 236, 173, 0.6);
+  background-color: rgba(236, 0, 173, 0.6);
   position: absolute;
   left: 3px;
   top: -3.6rem;
@@ -2067,7 +2067,7 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  color: #008080;
+  color: #80004d;
 }
 
 .info-wrapper {
@@ -2205,7 +2205,7 @@ html.no-csstransitions .home-content__main {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: #00ecd4;
+  background-color: #ec0095;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
@@ -2242,7 +2242,7 @@ html.no-csstransitions .home-content__main {
 
 .info-is-visible .info-menu-icon::before,
 .info-is-visible .info-menu-icon::after {
-  background-color: #008080;
+  background-color: #800049;
   -webkit-transition-delay: 0s, 0.2s;
   transition-delay: 0s, 0.2s;
 }
@@ -2403,7 +2403,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .card p {
-  color: #666;
+  color: #66666664;
 }
 
 /* Hover effect */
@@ -2437,7 +2437,7 @@ html.no-csstransitions .home-content__main {
 
 /*# sourceMappingURL=main.css.map */
 #statistics {
-  background-color: rgba(154, 175, 175, 0.929); /* Adjust the alpha (last value) for transparency */
+  background-color: rgba(175, 154, 162, 0.04); /* Adjust the alpha (last value) for transparency */
   backdrop-filter: blur(10px); /* Add a blur effect to the background */
   padding: 50px; /* Adjust padding to prevent cutoff */
   margin: 0;
@@ -2454,7 +2454,7 @@ html.no-csstransitions .home-content__main {
 
 .statistic {
   text-align: center;
-  background-color: rgba(114, 176, 160, 0.9);
+  background-color: rgba(176, 114, 151, 0.271);
   border-radius: 8px;
   padding: 20px;
   margin: 15px;
@@ -2480,7 +2480,7 @@ html.no-csstransitions .home-content__main {
 }
 /* Add hover effect */
 .statistic:hover {
-  background-color: #bef4f1; /* Light teal color */
+  background-color: #f4beda71; /* Light teal color */
 }
 
 
@@ -2512,4 +2512,50 @@ html.no-csstransitions .home-content__main {
 /* Tablet and Desktop Styles */
 @media only screen and (min-width: 769px) {
   /* Add specific styles for larger screens if needed */
+}
+
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 520px; /* Adjust as needed */
+}
+
+nav {
+  margin-top: 39px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  margin-left: 540px;
+  justify-content: auto;
+}
+
+nav a {
+  margin-left: 20px; /* Adjust as needed */
+  text-decoration: none;
+  color: #ff0073;; /* Change the color as needed */
+  transition: color 0.3s ease; /* Animation on hover */
+}
+
+nav a:hover {
+  color: #b36488; /* Change the hover color as needed */
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo-nav-container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav {
+      margin-top: 80px;
+      margin-left: 10px;
+  }
+
+  nav a {
+      margin: 5px 5;
+      margin-left: 5;
+  }
 }
