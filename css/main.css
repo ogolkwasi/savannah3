@@ -1178,9 +1178,14 @@ input::-moz-focus-inner {
 
 .home-slider-img {
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: auto;
   background-size: cover;
   height: 100vh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   
+
 }
 
 .home-slider-img::before {
@@ -2086,12 +2091,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .info-contact {
-  padding-top: 3rem;
+  padding-top: 1rem;
   color: #FFFFFF;
 }
 
 .info-block {
-  margin-bottom: 4.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .info-social {
@@ -2436,19 +2441,20 @@ html.no-csstransitions .home-content__main {
 
 
 #statistics {
-  background-color: rgba(92, 7, 51, 0); /* Adjust the alpha for transparency */
+  background-color: rgba(76, 53, 65, 0); /* Adjust the alpha for transparency */
   backdrop-filter: blur(10px); /* Add a blur effect to the background */
   padding: 50px;
   margin: 0;
   margin-top: 70px;
-  background-image: url(images/slides/leopard-cats-animal-print.jpg);
+  position: auto;
+  
   /* Add transition for smoother effects */
   transition: background-color 0.3s ease;
 }
 
 /* Update hover effect for #statistics */
 #statistics:hover {
-  background-color: rgba(92, 7, 51, 0.041); /* Adjust the alpha for a stronger hover effect */
+  background-color: rgba(92, 7, 51, 0.079); /* Adjust the alpha for a stronger hover effect */
 }
 
 .statistics-container {
@@ -2461,17 +2467,23 @@ html.no-csstransitions .home-content__main {
 
 .statistic {
   text-align: center;
-  background-color: rgba(222, 11, 99, 0.271);
-  border-radius: 8px;
+  background-color: gba(149, 53, 110, 0);
+  border-radius: 16px;
   padding: 20px;
   margin: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease; /* Add a subtle box shadow */
+  position: auto;
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgb(169, 18, 86)
+  
+
 }
 
 /* Add hover effect for statistics cards */
 .statistic:hover {
-  background-color: #151515; /* Light teal color */
+  background-color: #432230; /* Light teal color */
 }
 
 /* Mobile Styles */
@@ -2511,6 +2523,8 @@ html.no-csstransitions .home-content__main {
   align-items: center;
   padding: 10px;
   margin: 10px 520px; /* Adjust as needed */
+  
+  
 }
 
 nav {
@@ -2526,6 +2540,9 @@ nav a {
   text-decoration: none;
   color: #ff0073;; /* Change the color as needed */
   transition: color 0.3s ease; /* Animation on hover */
+  background-color: rgba(222, 11, 99, 0.105);
+  
+  
 }
 
 nav a:hover {
@@ -2548,4 +2565,21 @@ nav a:hover {
       margin: 5px 5;
       margin-left: 5;
   }
+}
+
+/* Add these styles to your CSS */
+
+
+
+.home-slider-video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1; /* Ensure the video is behind other content */
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
 }
